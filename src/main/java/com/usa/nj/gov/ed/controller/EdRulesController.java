@@ -35,7 +35,7 @@ public class EdRulesController {
 		
 		response = edRulesService.findEligibility(request);
 		
-		logger.debug(" *** EdRulesController :: checkingEligibility() method ended *** ");
+		logger.debug(" ***** EdRulesController :: checkingEligibility() method ended ***** ");
 		logger.info(" *** EdRulesController :: Eligibility Determination Completed Successfully *** ");
 		
 		return response;
