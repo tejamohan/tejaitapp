@@ -1,0 +1,450 @@
+2019-05-03 21:29:20 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - Starting EdRulesApiApplication on SantoshGolajapu with PID 4844 (started by HP in F:\Practice Applications\RealtimeProject\EdRulesApi)
+2019-05-03 21:29:20 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - No active profile set, falling back to default profiles: default
+2019-05-03 21:29:21 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-03 21:29:21 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-03 21:29:28 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7591 (http)
+2019-05-03 21:29:29 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-03 21:29:29 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-03 21:29:31 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-03 21:29:31 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 9568 ms
+2019-05-03 21:29:32 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-03 21:29:32 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-03 21:29:33 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-05-03 21:29:33 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2019-05-03 21:29:33 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-05-03 21:29:33 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2019-05-03 21:29:34 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 7591 (http) with context path ''
+2019-05-03 21:29:34 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - Started EdRulesApiApplication in 16.916 seconds (JVM running for 31.613)
+2019-05-03 21:33:04 [http-nio-7591-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-03 21:33:04 [http-nio-7591-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-05-03 21:33:04 [http-nio-7591-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 24 ms
+2019-05-03 21:33:05 [http-nio-7591-exec-1] DEBUG c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: checkingEligibility() method started *** 
+2019-05-03 21:33:05 [http-nio-7591-exec-1] DEBUG c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl :: findEligibility() method started **** 
+2019-05-03 21:33:05 [http-nio-7591-exec-1] DEBUG c.u.n.g.ed.service.CcapRulesService -  *** CcapRulesService :: CcapRulesService  started *** 
+2019-05-03 21:33:05 [http-nio-7591-exec-1] DEBUG c.u.n.g.ed.service.CcapRulesService -  *** CcapRulesService :: CcapRulesServiceended *** 
+2019-05-03 21:33:05 [http-nio-7591-exec-1] INFO  c.u.n.g.ed.service.CcapRulesService -  *** CcapRulesService :: CcapRulesService Succesfull Completed *** 
+2019-05-03 21:33:05 [http-nio-7591-exec-1] DEBUG c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl :: findEligibility() method ended **** 
+2019-05-03 21:33:05 [http-nio-7591-exec-1] INFO  c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl ::  findEligibility() Completed Successful **** 
+2019-05-03 21:33:05 [http-nio-7591-exec-1] DEBUG c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: checkingEligibility() method ended *** 
+2019-05-03 21:33:05 [http-nio-7591-exec-1] INFO  c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: Eligibility Determination Completed Successfully *** 
+2019-05-03 21:38:12 [Thread-5] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-03 21:38:13 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - Starting EdRulesApiApplication on SantoshGolajapu with PID 4844 (started by HP in F:\Practice Applications\RealtimeProject\EdRulesApi)
+2019-05-03 21:38:13 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - No active profile set, falling back to default profiles: default
+2019-05-03 21:38:14 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7591 (http)
+2019-05-03 21:38:14 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-03 21:38:14 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-03 21:38:14 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-03 21:38:14 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1698 ms
+2019-05-03 21:38:15 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-03 21:38:15 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-03 21:38:15 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-05-03 21:38:15 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2019-05-03 21:38:15 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-05-03 21:38:15 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2019-05-03 21:38:15 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 7591 (http) with context path ''
+2019-05-03 21:38:15 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - Started EdRulesApiApplication in 2.327 seconds (JVM running for 552.567)
+2019-05-03 21:38:15 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-05-03 21:38:44 [http-nio-7591-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-03 21:38:44 [http-nio-7591-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-05-03 21:38:44 [http-nio-7591-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2019-05-03 21:38:44 [http-nio-7591-exec-1] DEBUG c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: checkingEligibility() method started *** 
+2019-05-03 21:38:44 [http-nio-7591-exec-1] DEBUG c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl :: findEligibility() method started **** 
+2019-05-03 21:38:44 [http-nio-7591-exec-1] INFO  c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl ::  findEligibility() Exception Occured **** null
+2019-05-03 21:38:44 [http-nio-7591-exec-1] DEBUG c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl :: findEligibility() method ended **** 
+2019-05-03 21:38:44 [http-nio-7591-exec-1] INFO  c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl ::  findEligibility() Completed Successful **** 
+2019-05-03 21:38:44 [http-nio-7591-exec-1] DEBUG c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: checkingEligibility() method ended *** 
+2019-05-03 21:38:44 [http-nio-7591-exec-1] INFO  c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: Eligibility Determination Completed Successfully *** 
+2019-05-03 21:39:12 [http-nio-7591-exec-3] DEBUG c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: checkingEligibility() method started *** 
+2019-05-03 21:39:12 [http-nio-7591-exec-3] DEBUG c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl :: findEligibility() method started **** 
+2019-05-03 21:39:12 [http-nio-7591-exec-3] INFO  c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl ::  findEligibility() Exception Occured **** null
+2019-05-03 21:39:12 [http-nio-7591-exec-3] DEBUG c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl :: findEligibility() method ended **** 
+2019-05-03 21:39:12 [http-nio-7591-exec-3] INFO  c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl ::  findEligibility() Completed Successful **** 
+2019-05-03 21:39:12 [http-nio-7591-exec-3] DEBUG c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: checkingEligibility() method ended *** 
+2019-05-03 21:39:12 [http-nio-7591-exec-3] INFO  c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: Eligibility Determination Completed Successfully *** 
+2019-05-03 21:39:23 [http-nio-7591-exec-4] DEBUG c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: checkingEligibility() method started *** 
+2019-05-03 21:39:23 [http-nio-7591-exec-4] DEBUG c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl :: findEligibility() method started **** 
+2019-05-03 21:39:23 [http-nio-7591-exec-4] INFO  c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl ::  findEligibility() Exception Occured **** null
+2019-05-03 21:39:23 [http-nio-7591-exec-4] DEBUG c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl :: findEligibility() method ended **** 
+2019-05-03 21:39:23 [http-nio-7591-exec-4] INFO  c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl ::  findEligibility() Completed Successful **** 
+2019-05-03 21:39:23 [http-nio-7591-exec-4] DEBUG c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: checkingEligibility() method ended *** 
+2019-05-03 21:39:23 [http-nio-7591-exec-4] INFO  c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: Eligibility Determination Completed Successfully *** 
+2019-05-03 21:39:45 [http-nio-7591-exec-7] DEBUG c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: checkingEligibility() method started *** 
+2019-05-03 21:39:45 [http-nio-7591-exec-7] DEBUG c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl :: findEligibility() method started **** 
+2019-05-03 21:39:45 [http-nio-7591-exec-7] INFO  c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl ::  findEligibility() Exception Occured **** null
+2019-05-03 21:39:45 [http-nio-7591-exec-7] DEBUG c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl :: findEligibility() method ended **** 
+2019-05-03 21:39:45 [http-nio-7591-exec-7] INFO  c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl ::  findEligibility() Completed Successful **** 
+2019-05-03 21:39:45 [http-nio-7591-exec-7] DEBUG c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: checkingEligibility() method ended *** 
+2019-05-03 21:39:45 [http-nio-7591-exec-7] INFO  c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: Eligibility Determination Completed Successfully *** 
+2019-05-03 21:40:15 [http-nio-7591-exec-9] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/xml' not supported]
+2019-05-03 21:40:29 [http-nio-7591-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/xml' not supported]
+2019-05-03 21:40:29 [http-nio-7591-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+2019-05-03 21:40:45 [http-nio-7591-exec-3] DEBUG c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: checkingEligibility() method started *** 
+2019-05-03 21:40:45 [http-nio-7591-exec-3] DEBUG c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl :: findEligibility() method started **** 
+2019-05-03 21:40:45 [http-nio-7591-exec-3] INFO  c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl ::  findEligibility() Exception Occured **** null
+2019-05-03 21:40:45 [http-nio-7591-exec-3] DEBUG c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl :: findEligibility() method ended **** 
+2019-05-03 21:40:45 [http-nio-7591-exec-3] INFO  c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl ::  findEligibility() Completed Successful **** 
+2019-05-03 21:40:45 [http-nio-7591-exec-3] DEBUG c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: checkingEligibility() method ended *** 
+2019-05-03 21:40:45 [http-nio-7591-exec-3] INFO  c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: Eligibility Determination Completed Successfully *** 
+2019-05-03 21:41:29 [http-nio-7591-exec-4] DEBUG c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: checkingEligibility() method started *** 
+2019-05-03 21:41:29 [http-nio-7591-exec-4] DEBUG c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl :: findEligibility() method started **** 
+2019-05-03 21:41:29 [http-nio-7591-exec-4] INFO  c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl ::  findEligibility() Exception Occured **** null
+2019-05-03 21:41:29 [http-nio-7591-exec-4] DEBUG c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl :: findEligibility() method ended **** 
+2019-05-03 21:41:29 [http-nio-7591-exec-4] INFO  c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl ::  findEligibility() Completed Successful **** 
+2019-05-03 21:41:29 [http-nio-7591-exec-4] DEBUG c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: checkingEligibility() method ended *** 
+2019-05-03 21:41:29 [http-nio-7591-exec-4] INFO  c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: Eligibility Determination Completed Successfully *** 
+2019-05-03 21:41:47 [http-nio-7591-exec-7] DEBUG c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: checkingEligibility() method started *** 
+2019-05-03 21:41:47 [http-nio-7591-exec-7] DEBUG c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl :: findEligibility() method started **** 
+2019-05-03 21:41:47 [http-nio-7591-exec-7] INFO  c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl ::  findEligibility() Exception Occured **** null
+2019-05-03 21:41:47 [http-nio-7591-exec-7] DEBUG c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl :: findEligibility() method ended **** 
+2019-05-03 21:41:47 [http-nio-7591-exec-7] INFO  c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl ::  findEligibility() Completed Successful **** 
+2019-05-03 21:41:47 [http-nio-7591-exec-7] DEBUG c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: checkingEligibility() method ended *** 
+2019-05-03 21:41:47 [http-nio-7591-exec-7] INFO  c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: Eligibility Determination Completed Successfully *** 
+2019-05-03 21:41:57 [http-nio-7591-exec-9] DEBUG c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: checkingEligibility() method started *** 
+2019-05-03 21:41:57 [http-nio-7591-exec-9] DEBUG c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl :: findEligibility() method started **** 
+2019-05-03 21:41:57 [http-nio-7591-exec-9] INFO  c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl ::  findEligibility() Exception Occured **** null
+2019-05-03 21:41:57 [http-nio-7591-exec-9] DEBUG c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl :: findEligibility() method ended **** 
+2019-05-03 21:41:57 [http-nio-7591-exec-9] INFO  c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl ::  findEligibility() Completed Successful **** 
+2019-05-03 21:41:57 [http-nio-7591-exec-9] DEBUG c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: checkingEligibility() method ended *** 
+2019-05-03 21:41:57 [http-nio-7591-exec-9] INFO  c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: Eligibility Determination Completed Successfully *** 
+2019-05-03 21:42:14 [http-nio-7591-exec-1] DEBUG c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: checkingEligibility() method started *** 
+2019-05-03 21:42:14 [http-nio-7591-exec-1] DEBUG c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl :: findEligibility() method started **** 
+2019-05-03 21:42:14 [http-nio-7591-exec-1] INFO  c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl ::  findEligibility() Exception Occured **** null
+2019-05-03 21:42:14 [http-nio-7591-exec-1] DEBUG c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl :: findEligibility() method ended **** 
+2019-05-03 21:42:14 [http-nio-7591-exec-1] INFO  c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl ::  findEligibility() Completed Successful **** 
+2019-05-03 21:42:14 [http-nio-7591-exec-1] DEBUG c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: checkingEligibility() method ended *** 
+2019-05-03 21:42:14 [http-nio-7591-exec-1] INFO  c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: Eligibility Determination Completed Successfully *** 
+2019-05-03 21:43:19 [http-nio-7591-exec-3] DEBUG c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: checkingEligibility() method started *** 
+2019-05-03 21:43:19 [http-nio-7591-exec-3] DEBUG c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl :: findEligibility() method started **** 
+2019-05-03 21:43:19 [http-nio-7591-exec-3] DEBUG c.u.n.g.ed.service.SnapRulesService -  *** SnapRulesService ::  SnapRulesService started *** 
+2019-05-03 21:43:19 [http-nio-7591-exec-3] DEBUG c.u.n.g.ed.service.SnapRulesService -  *** SnapRulesService :: SnapRulesService ended *** 
+2019-05-03 21:43:19 [http-nio-7591-exec-3] INFO  c.u.n.g.ed.service.SnapRulesService -  *** SnapRulesService :: SnapRules Completed Succefull *** 
+2019-05-03 21:43:19 [http-nio-7591-exec-3] DEBUG c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl :: findEligibility() method ended **** 
+2019-05-03 21:43:19 [http-nio-7591-exec-3] INFO  c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl ::  findEligibility() Completed Successful **** 
+2019-05-03 21:43:19 [http-nio-7591-exec-3] DEBUG c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: checkingEligibility() method ended *** 
+2019-05-03 21:43:19 [http-nio-7591-exec-3] INFO  c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: Eligibility Determination Completed Successfully *** 
+2019-05-03 21:43:42 [Thread-10] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-03 21:43:43 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - Starting EdRulesApiApplication on SantoshGolajapu with PID 4844 (started by HP in F:\Practice Applications\RealtimeProject\EdRulesApi)
+2019-05-03 21:43:43 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - No active profile set, falling back to default profiles: default
+2019-05-03 21:43:43 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7591 (http)
+2019-05-03 21:43:43 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-03 21:43:43 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-03 21:43:43 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-03 21:43:43 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 735 ms
+2019-05-03 21:43:44 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-03 21:43:44 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-03 21:43:44 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-05-03 21:43:44 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2019-05-03 21:43:44 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-05-03 21:43:44 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2019-05-03 21:43:44 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 7591 (http) with context path ''
+2019-05-03 21:43:44 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - Started EdRulesApiApplication in 1.174 seconds (JVM running for 881.357)
+2019-05-03 21:43:44 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-05-03 21:43:46 [Thread-16] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-03 21:43:46 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - Starting EdRulesApiApplication on SantoshGolajapu with PID 4844 (started by HP in F:\Practice Applications\RealtimeProject\EdRulesApi)
+2019-05-03 21:43:46 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - No active profile set, falling back to default profiles: default
+2019-05-03 21:43:47 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7591 (http)
+2019-05-03 21:43:47 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-03 21:43:47 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-03 21:43:47 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-03 21:43:47 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 477 ms
+2019-05-03 21:43:47 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-03 21:43:47 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-03 21:43:47 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-05-03 21:43:47 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2019-05-03 21:43:47 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-05-03 21:43:47 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2019-05-03 21:43:47 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 7591 (http) with context path ''
+2019-05-03 21:43:47 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - Started EdRulesApiApplication in 0.785 seconds (JVM running for 884.52)
+2019-05-03 21:43:47 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-05-03 21:43:51 [http-nio-7591-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-03 21:43:51 [http-nio-7591-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-05-03 21:43:51 [http-nio-7591-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-05-03 21:43:51 [http-nio-7591-exec-1] DEBUG c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: checkingEligibility() method started *** 
+2019-05-03 21:43:51 [http-nio-7591-exec-1] DEBUG c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl :: findEligibility() method started **** 
+2019-05-03 21:43:51 [http-nio-7591-exec-1] DEBUG c.u.n.g.ed.service.SnapRulesService -  *** SnapRulesService ::  SnapRulesService started *** 
+2019-05-03 21:43:51 [http-nio-7591-exec-1] DEBUG c.u.n.g.ed.service.SnapRulesService -  *** SnapRulesService :: SnapRulesService ended *** 
+2019-05-03 21:43:51 [http-nio-7591-exec-1] INFO  c.u.n.g.ed.service.SnapRulesService -  *** SnapRulesService :: SnapRules Completed Succefull *** 
+2019-05-03 21:43:51 [http-nio-7591-exec-1] DEBUG c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl :: findEligibility() method ended **** 
+2019-05-03 21:43:51 [http-nio-7591-exec-1] INFO  c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl ::  findEligibility() Completed Successful **** 
+2019-05-03 21:43:51 [http-nio-7591-exec-1] DEBUG c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: checkingEligibility() method ended *** 
+2019-05-03 21:43:51 [http-nio-7591-exec-1] INFO  c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: Eligibility Determination Completed Successfully *** 
+2019-05-03 21:44:43 [http-nio-7591-exec-3] DEBUG c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: checkingEligibility() method started *** 
+2019-05-03 21:44:43 [http-nio-7591-exec-3] DEBUG c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl :: findEligibility() method started **** 
+2019-05-03 21:44:43 [http-nio-7591-exec-3] DEBUG c.u.n.g.ed.service.CcapRulesService -  *** CcapRulesService :: CcapRulesService  started *** 
+2019-05-03 21:44:43 [http-nio-7591-exec-3] DEBUG c.u.n.g.ed.service.CcapRulesService -  *** CcapRulesService :: CcapRulesServiceended *** 
+2019-05-03 21:44:43 [http-nio-7591-exec-3] INFO  c.u.n.g.ed.service.CcapRulesService -  *** CcapRulesService :: CcapRulesService Succesfull Completed *** 
+2019-05-03 21:44:43 [http-nio-7591-exec-3] DEBUG c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl :: findEligibility() method ended **** 
+2019-05-03 21:44:43 [http-nio-7591-exec-3] INFO  c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl ::  findEligibility() Completed Successful **** 
+2019-05-03 21:44:43 [http-nio-7591-exec-3] DEBUG c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: checkingEligibility() method ended *** 
+2019-05-03 21:44:43 [http-nio-7591-exec-3] INFO  c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: Eligibility Determination Completed Successfully *** 
+2019-05-03 21:50:18 [Thread-22] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-03 21:50:24 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - Starting EdRulesApiApplication on SantoshGolajapu with PID 4844 (started by HP in F:\Practice Applications\RealtimeProject\EdRulesApi)
+2019-05-03 21:50:24 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - No active profile set, falling back to default profiles: default
+2019-05-03 21:50:26 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7591 (http)
+2019-05-03 21:50:26 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-03 21:50:26 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-03 21:50:26 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-03 21:50:26 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2169 ms
+2019-05-03 21:50:26 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-03 21:50:27 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-03 21:50:27 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-05-03 21:50:27 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2019-05-03 21:50:27 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-05-03 21:50:27 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2019-05-03 21:50:27 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 7591 (http) with context path ''
+2019-05-03 21:50:27 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - Started EdRulesApiApplication in 3.183 seconds (JVM running for 1284.485)
+2019-05-03 21:50:27 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-05-03 21:51:10 [http-nio-7591-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-03 21:51:10 [http-nio-7591-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-05-03 21:51:10 [http-nio-7591-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2019-05-03 21:51:10 [http-nio-7591-exec-1] DEBUG c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: checkingEligibility() method started *** 
+2019-05-03 21:51:10 [http-nio-7591-exec-1] DEBUG c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl :: findEligibility() method started **** 
+2019-05-03 21:51:10 [http-nio-7591-exec-1] DEBUG c.u.n.g.ed.service.SnapRulesService -  *** SnapRulesService ::  SnapRulesService started *** 
+2019-05-03 21:51:10 [http-nio-7591-exec-1] DEBUG c.u.n.g.ed.service.SnapRulesService -  *** SnapRulesService :: SnapRulesService ended *** 
+2019-05-03 21:51:10 [http-nio-7591-exec-1] INFO  c.u.n.g.ed.service.SnapRulesService -  *** SnapRulesService :: SnapRules Completed Succefull *** 
+2019-05-03 21:51:10 [http-nio-7591-exec-1] DEBUG c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl :: findEligibility() method ended **** 
+2019-05-03 21:51:10 [http-nio-7591-exec-1] INFO  c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl ::  findEligibility() Completed Successful **** 
+2019-05-03 21:51:10 [http-nio-7591-exec-1] DEBUG c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: checkingEligibility() method ended *** 
+2019-05-03 21:51:10 [http-nio-7591-exec-1] INFO  c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: Eligibility Determination Completed Successfully *** 
+2019-05-03 21:52:20 [Thread-28] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-03 21:52:21 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - Starting EdRulesApiApplication on SantoshGolajapu with PID 4844 (started by HP in F:\Practice Applications\RealtimeProject\EdRulesApi)
+2019-05-03 21:52:21 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - No active profile set, falling back to default profiles: default
+2019-05-03 21:52:21 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7591 (http)
+2019-05-03 21:52:21 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-03 21:52:21 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-03 21:52:21 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-03 21:52:21 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 863 ms
+2019-05-03 21:52:22 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-03 21:52:22 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-03 21:52:22 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-05-03 21:52:22 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2019-05-03 21:52:22 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-05-03 21:52:22 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2019-05-03 21:52:22 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 7591 (http) with context path ''
+2019-05-03 21:52:22 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - Started EdRulesApiApplication in 1.226 seconds (JVM running for 1399.324)
+2019-05-03 21:52:22 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-05-03 22:06:02 [Thread-34] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-03 22:06:03 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - Starting EdRulesApiApplication on SantoshGolajapu with PID 4844 (started by HP in F:\Practice Applications\RealtimeProject\EdRulesApi)
+2019-05-03 22:06:03 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - No active profile set, falling back to default profiles: default
+2019-05-03 22:06:04 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7591 (http)
+2019-05-03 22:06:04 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-03 22:06:04 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-03 22:06:04 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-03 22:06:04 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1335 ms
+2019-05-03 22:06:05 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-03 22:06:05 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-03 22:06:05 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-05-03 22:06:05 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2019-05-03 22:06:05 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-05-03 22:06:05 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2019-05-03 22:06:05 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 7591 (http) with context path ''
+2019-05-03 22:06:05 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - Started EdRulesApiApplication in 1.92 seconds (JVM running for 2222.341)
+2019-05-03 22:06:05 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-05-03 22:06:37 [Thread-40] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-03 22:06:37 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - Starting EdRulesApiApplication on SantoshGolajapu with PID 4844 (started by HP in F:\Practice Applications\RealtimeProject\EdRulesApi)
+2019-05-03 22:06:37 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - No active profile set, falling back to default profiles: default
+2019-05-03 22:06:38 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7591 (http)
+2019-05-03 22:06:38 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-03 22:06:38 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-03 22:06:38 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-03 22:06:38 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 620 ms
+2019-05-03 22:06:38 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-03 22:06:38 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-03 22:06:38 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-05-03 22:06:38 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2019-05-03 22:06:38 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-05-03 22:06:38 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2019-05-03 22:06:38 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 7591 (http) with context path ''
+2019-05-03 22:06:38 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - Started EdRulesApiApplication in 1.11 seconds (JVM running for 2255.941)
+2019-05-03 22:06:38 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-05-03 22:07:32 [Thread-46] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-03 22:07:33 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - Starting EdRulesApiApplication on SantoshGolajapu with PID 4844 (started by HP in F:\Practice Applications\RealtimeProject\EdRulesApi)
+2019-05-03 22:07:33 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - No active profile set, falling back to default profiles: default
+2019-05-03 22:07:33 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7591 (http)
+2019-05-03 22:07:33 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-03 22:07:33 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-03 22:07:33 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-03 22:07:33 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 670 ms
+2019-05-03 22:07:34 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-03 22:07:34 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-03 22:07:34 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-05-03 22:07:34 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2019-05-03 22:07:34 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-05-03 22:07:34 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2019-05-03 22:07:34 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 7591 (http) with context path ''
+2019-05-03 22:07:34 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - Started EdRulesApiApplication in 0.992 seconds (JVM running for 2311.236)
+2019-05-03 22:07:34 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-05-03 22:07:44 [Thread-52] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-03 22:07:45 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - Starting EdRulesApiApplication on SantoshGolajapu with PID 4844 (started by HP in F:\Practice Applications\RealtimeProject\EdRulesApi)
+2019-05-03 22:07:45 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - No active profile set, falling back to default profiles: default
+2019-05-03 22:07:45 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7591 (http)
+2019-05-03 22:07:45 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-03 22:07:45 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-03 22:07:45 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-03 22:07:45 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 511 ms
+2019-05-03 22:07:45 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-03 22:07:45 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-03 22:07:45 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-05-03 22:07:45 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2019-05-03 22:07:45 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-05-03 22:07:45 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2019-05-03 22:07:45 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 7591 (http) with context path ''
+2019-05-03 22:07:45 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - Started EdRulesApiApplication in 0.775 seconds (JVM running for 2322.827)
+2019-05-03 22:07:45 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-05-03 22:07:55 [Thread-58] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-03 22:07:55 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - Starting EdRulesApiApplication on SantoshGolajapu with PID 4844 (started by HP in F:\Practice Applications\RealtimeProject\EdRulesApi)
+2019-05-03 22:07:55 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - No active profile set, falling back to default profiles: default
+2019-05-03 22:07:56 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7591 (http)
+2019-05-03 22:07:56 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-03 22:07:56 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-03 22:07:56 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-03 22:07:56 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 450 ms
+2019-05-03 22:07:56 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-03 22:07:56 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-03 22:07:56 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-05-03 22:07:56 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2019-05-03 22:07:56 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-05-03 22:07:56 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2019-05-03 22:07:56 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 7591 (http) with context path ''
+2019-05-03 22:07:56 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - Started EdRulesApiApplication in 0.714 seconds (JVM running for 2333.677)
+2019-05-03 22:07:56 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-05-03 22:08:08 [http-nio-7591-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-03 22:08:08 [http-nio-7591-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-05-03 22:08:08 [http-nio-7591-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2019-05-03 22:08:08 [http-nio-7591-exec-1] DEBUG c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: checkingEligibility() method started *** 
+2019-05-03 22:08:08 [http-nio-7591-exec-1] DEBUG c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl :: findEligibility() method started **** 
+2019-05-03 22:08:08 [http-nio-7591-exec-1] DEBUG c.u.n.g.ed.service.SnapRulesService -  *** SnapRulesService ::  SnapRulesService started *** 
+2019-05-03 22:08:08 [http-nio-7591-exec-1] DEBUG c.u.n.g.ed.service.SnapRulesService -  *** SnapRulesService :: SnapRulesService ended *** 
+2019-05-03 22:08:08 [http-nio-7591-exec-1] INFO  c.u.n.g.ed.service.SnapRulesService -  *** SnapRulesService :: SnapRules Completed Succefull *** 
+2019-05-03 22:08:08 [http-nio-7591-exec-1] DEBUG c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl :: findEligibility() method ended **** 
+2019-05-03 22:08:08 [http-nio-7591-exec-1] INFO  c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl ::  findEligibility() Completed Successful **** 
+2019-05-03 22:08:08 [http-nio-7591-exec-1] DEBUG c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: checkingEligibility() method ended *** 
+2019-05-03 22:08:08 [http-nio-7591-exec-1] INFO  c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: Eligibility Determination Completed Successfully *** 
+2019-05-03 22:10:30 [Thread-64] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-03 22:10:31 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - Starting EdRulesApiApplication on SantoshGolajapu with PID 4844 (started by HP in F:\Practice Applications\RealtimeProject\EdRulesApi)
+2019-05-03 22:10:31 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - No active profile set, falling back to default profiles: default
+2019-05-03 22:10:31 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7591 (http)
+2019-05-03 22:10:31 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-03 22:10:31 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-03 22:10:31 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-03 22:10:31 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 530 ms
+2019-05-03 22:10:31 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-03 22:10:31 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-03 22:10:31 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-05-03 22:10:31 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2019-05-03 22:10:31 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-05-03 22:10:31 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2019-05-03 22:10:31 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 7591 (http) with context path ''
+2019-05-03 22:10:31 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - Started EdRulesApiApplication in 0.839 seconds (JVM running for 2488.898)
+2019-05-03 22:10:31 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-05-03 22:11:11 [Thread-70] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-03 22:11:12 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - Starting EdRulesApiApplication on SantoshGolajapu with PID 4844 (started by HP in F:\Practice Applications\RealtimeProject\EdRulesApi)
+2019-05-03 22:11:12 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - No active profile set, falling back to default profiles: default
+2019-05-03 22:11:13 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7591 (http)
+2019-05-03 22:11:13 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-03 22:11:13 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-03 22:11:13 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-03 22:11:13 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 935 ms
+2019-05-03 22:11:13 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-03 22:11:13 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-03 22:11:13 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-05-03 22:11:13 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2019-05-03 22:11:13 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-05-03 22:11:13 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2019-05-03 22:11:13 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 7591 (http) with context path ''
+2019-05-03 22:11:13 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - Started EdRulesApiApplication in 1.33 seconds (JVM running for 2530.631)
+2019-05-03 22:11:13 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-05-03 22:11:27 [Thread-76] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-03 22:11:27 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - Starting EdRulesApiApplication on SantoshGolajapu with PID 4844 (started by HP in F:\Practice Applications\RealtimeProject\EdRulesApi)
+2019-05-03 22:11:27 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - No active profile set, falling back to default profiles: default
+2019-05-03 22:11:28 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7591 (http)
+2019-05-03 22:11:28 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-03 22:11:28 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-03 22:11:28 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-03 22:11:28 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 713 ms
+2019-05-03 22:11:28 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-03 22:11:28 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-03 22:11:28 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-05-03 22:11:28 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2019-05-03 22:11:28 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-05-03 22:11:28 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2019-05-03 22:11:28 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 7591 (http) with context path ''
+2019-05-03 22:11:28 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - Started EdRulesApiApplication in 1.154 seconds (JVM running for 2545.818)
+2019-05-03 22:11:28 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-05-03 22:12:03 [Thread-82] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-03 22:12:03 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - Starting EdRulesApiApplication on SantoshGolajapu with PID 4844 (started by HP in F:\Practice Applications\RealtimeProject\EdRulesApi)
+2019-05-03 22:12:03 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - No active profile set, falling back to default profiles: default
+2019-05-03 22:12:04 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7591 (http)
+2019-05-03 22:12:04 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-03 22:12:04 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-03 22:12:04 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-03 22:12:04 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 483 ms
+2019-05-03 22:12:04 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-03 22:12:04 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-03 22:12:04 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-05-03 22:12:04 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2019-05-03 22:12:04 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-05-03 22:12:04 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2019-05-03 22:12:04 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 7591 (http) with context path ''
+2019-05-03 22:12:04 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - Started EdRulesApiApplication in 0.744 seconds (JVM running for 2581.567)
+2019-05-03 22:12:04 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-05-03 22:12:10 [http-nio-7591-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-03 22:12:10 [http-nio-7591-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-05-03 22:12:10 [http-nio-7591-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2019-05-03 22:12:10 [http-nio-7591-exec-1] DEBUG c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: checkingEligibility() method started *** 
+2019-05-03 22:12:10 [http-nio-7591-exec-1] DEBUG c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl :: findEligibility() method started **** 
+2019-05-03 22:12:10 [http-nio-7591-exec-1] DEBUG c.u.n.g.ed.service.SnapRulesService -  *** SnapRulesService ::  SnapRulesService started *** 
+2019-05-03 22:12:10 [http-nio-7591-exec-1] DEBUG c.u.n.g.ed.service.SnapRulesService -  *** SnapRulesService :: SnapRulesService ended *** 
+2019-05-03 22:12:10 [http-nio-7591-exec-1] INFO  c.u.n.g.ed.service.SnapRulesService -  *** SnapRulesService :: SnapRules Completed Succefull *** 
+2019-05-03 22:12:10 [http-nio-7591-exec-1] DEBUG c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl :: findEligibility() method ended **** 
+2019-05-03 22:12:10 [http-nio-7591-exec-1] INFO  c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl ::  findEligibility() Completed Successful **** 
+2019-05-03 22:12:10 [http-nio-7591-exec-1] DEBUG c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: checkingEligibility() method ended *** 
+2019-05-03 22:12:10 [http-nio-7591-exec-1] INFO  c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: Eligibility Determination Completed Successfully *** 
+2019-05-03 22:13:45 [Thread-88] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-03 22:13:45 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - Starting EdRulesApiApplication on SantoshGolajapu with PID 4844 (started by HP in F:\Practice Applications\RealtimeProject\EdRulesApi)
+2019-05-03 22:13:45 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - No active profile set, falling back to default profiles: default
+2019-05-03 22:13:46 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7591 (http)
+2019-05-03 22:13:46 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-03 22:13:46 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-03 22:13:46 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-03 22:13:46 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 461 ms
+2019-05-03 22:13:46 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-03 22:13:46 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-03 22:13:46 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-05-03 22:13:46 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2019-05-03 22:13:46 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-05-03 22:13:46 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2019-05-03 22:13:46 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 7591 (http) with context path ''
+2019-05-03 22:13:46 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - Started EdRulesApiApplication in 0.832 seconds (JVM running for 2683.828)
+2019-05-03 22:13:46 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-05-03 22:15:03 [http-nio-7591-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-03 22:15:03 [http-nio-7591-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-05-03 22:15:03 [http-nio-7591-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-05-03 22:15:03 [http-nio-7591-exec-1] DEBUG c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: checkingEligibility() method started *** 
+2019-05-03 22:15:03 [http-nio-7591-exec-1] DEBUG c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl :: findEligibility() method started **** 
+2019-05-03 22:15:03 [http-nio-7591-exec-1] DEBUG c.u.n.g.ed.service.CcapRulesService -  *** CcapRulesService :: CcapRulesService  started *** 
+2019-05-03 22:15:03 [http-nio-7591-exec-1] DEBUG c.u.n.g.ed.service.CcapRulesService -  *** CcapRulesService :: CcapRulesServiceended *** 
+2019-05-03 22:15:03 [http-nio-7591-exec-1] INFO  c.u.n.g.ed.service.CcapRulesService -  *** CcapRulesService :: CcapRulesService Succesfull Completed *** 
+2019-05-03 22:15:03 [http-nio-7591-exec-1] DEBUG c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl :: findEligibility() method ended **** 
+2019-05-03 22:15:03 [http-nio-7591-exec-1] INFO  c.u.n.g.e.service.EdRulesServiceImpl -  **** EdRulesServiceImpl ::  findEligibility() Completed Successful **** 
+2019-05-03 22:15:03 [http-nio-7591-exec-1] DEBUG c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: checkingEligibility() method ended *** 
+2019-05-03 22:15:03 [http-nio-7591-exec-1] INFO  c.u.n.g.e.c.EdRulesController -  *** EdRulesController :: Eligibility Determination Completed Successfully *** 
+2019-05-03 22:25:53 [Thread-94] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-03 22:26:06 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - Starting EdRulesApiApplication on SantoshGolajapu with PID 4844 (started by HP in F:\Practice Applications\RealtimeProject\EdRulesApi)
+2019-05-03 22:26:06 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - No active profile set, falling back to default profiles: default
+2019-05-03 22:26:12 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7591 (http)
+2019-05-03 22:26:12 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-03 22:26:12 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-03 22:26:12 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-03 22:26:12 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6178 ms
+2019-05-03 22:26:13 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-03 22:26:13 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-03 22:26:13 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-05-03 22:26:13 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2019-05-03 22:26:13 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-05-03 22:26:13 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2019-05-03 22:26:14 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 7591 (http) with context path ''
+2019-05-03 22:26:14 [restartedMain] INFO  c.u.nj.gov.ed.EdRulesApiApplication - Started EdRulesApiApplication in 8.384 seconds (JVM running for 3431.14)
+2019-05-03 22:26:14 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-05-03 22:27:02 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2019-05-03 22:27:02 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
