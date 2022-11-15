@@ -24,7 +24,7 @@ public class EdRulesController {
 	 * This method is used for Determination Eligibility
 	 * @param request
 	 * @return PlanInfoResponse
-	 * @tejeswaraReddy munakala
+	 * @tejeswaraReddy munakala kill ego first
 	 */
 	@PostMapping(value = "/checkingEl", produces = { "application/xml", "application/json" }, consumes = {
 			"application/xml", "application/json" })
