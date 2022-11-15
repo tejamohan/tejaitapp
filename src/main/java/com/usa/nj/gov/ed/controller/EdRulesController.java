@@ -25,6 +25,7 @@ public class EdRulesController {
 	 * @param request
 	 * @return PlanInfoResponse
 	 * @tejamunakala kill your ego
+	 * @tejeswaraReddy munakala kill ego first
 	 */
 	@PostMapping(value = "/checkingEl", produces = { "application/xml", "application/json" }, consumes = {
 			"application/xml", "application/json" })
